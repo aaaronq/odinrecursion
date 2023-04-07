@@ -1,7 +1,7 @@
 # odinrecursion
 
-##Exercise 1
+## Exercise 1
 Fibonacci iterative + recursive
 
-##Exercise 2
+## Exercise 2
 Merge sort using recursion
