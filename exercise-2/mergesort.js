@@ -19,7 +19,7 @@ function mergesort(arr) {
                 continue;
 			}
             if (leftHalf.length === 0) sorted.push(rightHalf.shift());
-            if (rightHalf.length === 0) sorted.push(leftHalf.shift());
+            else if (rightHalf.length === 0) sorted.push(leftHalf.shift());
 		}
 		return sorted;
 	}
