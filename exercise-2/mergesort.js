@@ -18,6 +18,12 @@ function mergesort(arr) {
 				sorted.push(rightHalf.shift());
                 continue;
 			}
+            else if (rightHalf[0] === leftHalf[0]) {
+                sorted.push(leftHalf.shift());
+                sorted.push(rightHalf.shift());
+                i++;
+                continue;
+            }
             if (leftHalf.length === 0) sorted.push(rightHalf.shift());
             else if (rightHalf.length === 0) sorted.push(leftHalf.shift());
 		}
